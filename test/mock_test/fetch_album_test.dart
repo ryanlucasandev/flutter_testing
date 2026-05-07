@@ -3,7 +3,7 @@
 // Note: Naming the generated mock 'MockHttpclient to avoid confusion with
 // MockClient from package:http/testing.dart
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_testing/fetch_data.dart';
+import 'package:flutter_testing/mock_test/fetch_data.dart';
 import 'package:http/http.dart' as http;
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

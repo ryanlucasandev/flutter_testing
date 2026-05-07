@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_testing/counter.dart';
+import 'package:flutter_testing/unit_test/counter.dart';
 
 void main() {
   group('Test start, increment, decrement', () {

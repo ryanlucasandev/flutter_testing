@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_testing/todo_list.dart';
+import 'package:flutter_testing/widget_test/todo_list_widget.dart';
 
 void main() {
   testWidgets('Add and remove a todo', (tester) async {

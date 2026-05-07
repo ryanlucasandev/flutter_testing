@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_testing/orientation_widget.dart';
+import 'package:flutter_testing/widget_test/orientation_widget.dart';
 
 void main() {
   group('Orientation', () {

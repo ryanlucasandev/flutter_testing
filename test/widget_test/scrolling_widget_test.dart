@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_testing/scrolling_widget.dart';
+import 'package:flutter_testing/widget_test/scrolling_widget.dart';
 
 void main() {
   testWidgets('finds a deep item in a long list', (tester) async {
