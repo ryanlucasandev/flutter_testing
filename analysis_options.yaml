@@ -7,11 +7,21 @@
 
 # The following line activates a set of recommended lints for Flutter apps,
 # packages, and plugins designed to encourage good coding practices.
-include: package:flutter_lints/flutter.yaml
+include:
+  - package:flutter_lints/flutter.yaml
+  - package:bloc_lint/recommended.yaml
 
-analyzer:
-  plugins:
-    - bloc_lint
+bloc:
+  rules:
+    - avoid_flutter_imports: true
+    - avoid_public_bloc_methods: true
+    - avoid_build_context_extensions: true
+    - avoid_public_fields: true
+    - prefer_bloc: true
+    - prefer_file_naming_conventions: true
+    - prefer_build_context_extensions: false
+    - prefer_cubit: false
+    - prefer_void_public_cubit_methods: false
 
 linter:
   # The lint rules applied to this project can be customized in the
