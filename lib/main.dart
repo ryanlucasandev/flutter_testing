@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_testing/bloc_tests/flutter_counter/app.dart';
-import 'package:flutter_testing/bloc_tests/flutter_counter/counter_observer.dart';
+import 'package:flutter_testing/bloc_tutorials/flutter_counter/app.dart';
+import 'package:flutter_testing/bloc_tutorials/flutter_counter/counter_observer.dart';
 
 void main() {
   Bloc.observer = const CounterObserver();
